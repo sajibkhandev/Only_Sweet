@@ -1,0 +1,345 @@
+/* common css start*/
+a {
+    text-decoration: none;
+}
+
+/* common css end */
+/* ======================
+   Navber part start
+======================= */
+.navbar {
+    background: #1C1E53;
+    padding: 20px !important;
+}
+
+.navbar-nav {
+    column-gap: 32px;
+}
+
+.nav-link {
+    color: #BBBBCB;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 0 !important;
+}
+
+.nav-item:hover .nav-link {
+    color: white;
+}
+
+.navber-btn {
+    background: transparent;
+    border: 1px solid rgb(120, 117, 117);
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-left: 50px;
+}
+
+.navber-btn:hover {
+    background: #FCD980;
+    border-color: transparent;
+}
+
+/* ======================
+   Navber part end
+======================= */
+/* ======================
+   Banner part start
+======================= */
+.banner {
+    background: #1C1E53;
+    padding-top: 126px;
+    padding-bottom: 139px;
+}
+
+.banner h1 {
+    font-size: 54px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    line-height: 74px;
+}
+
+.banner p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 576px;
+    margin-top: 17px;
+    margin-bottom: 37px;
+
+}
+
+.banner .viewbutton {
+    background: #FCD980;
+    padding: 16px 56px;
+    border-radius: 41px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1B1C2B;
+    font-family: "Manrope", sans-serif;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: .4s;
+
+}
+
+.banner .viewbutton:hover {
+    background: transparent;
+    color: white;
+    border-color: white;
+
+}
+
+.banner .pricingbutton {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    margin-left: 27px;
+    position: relative;
+
+
+}
+
+.pricingbutton .pricing-icon {
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+    color: white;
+}
+
+.pricingbutton:hover .pricing-icon {
+    left: 120px;
+    opacity: 1;
+    visibility: visible;
+
+
+}
+
+/* ======================
+   Banner part end
+======================= */
+/* ======================
+   Work part start
+======================= */
+.work {
+    padding: 128px 0px;
+    background: #F4F6FC;
+}
+
+.work h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+
+.work p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    width: 405px;
+}
+
+.work-pricingbutton {
+    color: #2405F2;
+    position: relative;
+    font-weight: 700;
+
+}
+
+.work-pricingbutton .pricing-icon {
+    color: #2405F2;
+    left: 160px;
+}
+
+.work-pricingbutton:hover .pricing-icon {
+    left: 180px;
+
+}
+
+.work .box {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 14px;
+    row-gap: 20px;
+
+
+
+
+}
+
+.wrok-card {
+    width: 49%;
+
+}
+
+.work .wrok-card h3 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 8px;
+
+}
+
+.work .wrok-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    width: 303px;
+
+
+}
+
+/* ======================
+   Work part end
+======================= */
+/* ======================
+   Project part start
+======================= */
+.project {
+    padding: 128px 0px;
+}
+
+.project .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.project .box h2 {
+    font-size: 48px;
+    color: #282938;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.project .box p {
+    font-size: 16px;
+    color: #282938;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project .image2 {
+    margin-top: 28px;
+}
+
+.project-possition {
+    position: relative;
+    overflow: hidden;
+}
+
+.project .overly {
+    width: 52%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.60);
+    position: absolute;
+    top: 0;
+    left: -52%;
+    transition: .5s;
+    color: white;
+    padding-top: 312px;
+    padding-left: 48px;
+    padding-right: 32px;
+}
+
+.project .overly h4 {
+    font-size: 50px;
+}
+
+.project-possition:hover .overly {
+    left: 0%;
+
+}
+
+/* ======================
+   Project part end
+======================= */
+/* ======================
+   Feature part start
+======================= */
+.feature {
+    background: #F4F6FC;
+    padding: 128px 0px;
+}
+
+.feature h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-bottom: 12px;
+
+}
+
+.feature h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    width: 630px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 47px;
+
+}
+
+.feature .card {
+    width: 100% !important;
+    padding-top: 58px;
+    padding-left: 48px;
+    padding-bottom: 48px;
+    padding-right: 32px;
+    border: 0px;
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+
+.feature .card img {
+    width: 8%;
+
+}
+
+.feature .card-body {
+    padding: 0px !important;
+    margin-top: 22px;
+}
+
+.feature .card-title {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+     font-family: "Poppins", sans-serif;
+
+}
+.feature .card-text {
+  
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+     font-family: "Poppins", sans-serif;
+
+}
+
+/* ======================
+   Feature part end
+======================= */
