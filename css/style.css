@@ -343,3 +343,57 @@ a {
 /* ======================
    Feature part end
 ======================= */
+/* ======================
+   About part start
+======================= */
+.about{
+    padding: 128px 0px;
+}
+.about h2{
+    font-size: 38px;
+    font-weight: 600;
+    color: #282938;
+     font-family: "Poppins", sans-serif;
+     width: 327px;
+     padding-bottom: 16px;
+}
+.about p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+     font-family: "Poppins", sans-serif;
+     width: 327px;
+    
+}
+.about h4{
+    font-size: 32px;
+    font-weight: 500;
+    color: #282938;
+     font-family: "Poppins", sans-serif;
+     width: 843px;
+    
+}
+.about .profile{
+    display: flex;
+    column-gap: 14px;
+    padding-top: 48px;
+}
+.about .profile h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+     font-family: "Poppins", sans-serif;
+       
+
+}
+.about .profile p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #282938;
+     font-family: "Poppins", sans-serif;
+       
+
+}
+/* ======================
+   About part end
+======================= */
