@@ -400,9 +400,31 @@ a {
 /* ======================
    Contact part start
 ======================= */
+.contact {
+    margin-bottom: 77px;
+}
 .contact .row{
     --bs-gutter-x: 0rem;
    
+}
+.contact-image{
+    position: relative;
+    overflow: hidden;
+}
+.contact .overly{
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83,0.5);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: .4s;
+    color: #fff;
+    padding: 96px;
+}
+.contact-image:hover .overly{
+    left: 0;
+
 }
 .contact img{
     width: 100%;
@@ -439,7 +461,51 @@ a {
     padding: 18px 32px;
     margin: 16px 0px;
     border-radius: 8px;
+    color: #F4F6FC;
+    font-size: 16px;
+    font-weight: 400;
+     font-family: "Poppins", sans-serif;
+
+
 }
+.contact .contact-content input::placeholder{
+    color: #F4F6FC;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+
+
+}
+.contact .contact-content button{
+    background: #FCD980;
+    width: 100%;
+    padding: 16px 0px;
+    border-radius: 41px;
+    color: #1B1C2B;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    margin-top: 18px;
+
+}
+.contact .contact-content .pricingbutton {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif;
+    display: inline-block;
+    margin: 34px 142px;
+    position: relative;
+
+}
+.contact .contact-content .pricingbutton .pricing-icon{
+    left: 180px;
+}
+.contact .contact-content .pricingbutton:hover .pricing-icon{
+left: 200px;
+}
+
 
 /* ======================
    Contact part end
