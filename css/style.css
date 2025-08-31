@@ -398,6 +398,56 @@ a {
    About part end
 ======================= */
 /* ======================
+   Faq part start
+======================= */
+.faq {
+    padding-bottom: 128px;
+}
+.faq h2{
+    font-size: 38px;
+    font-weight: 500;
+    color: #282938;
+     font-family: "Poppins", sans-serif;
+     width: 328px;
+     line-height: 56px;
+     padding-bottom: 16px;
+
+
+}
+.faq .work-pricingbutton .pricing-icon{
+    left: 185px;
+
+}
+.faq .work-pricingbutton:hover .pricing-icon{
+    left: 200px;
+}
+.faq .accordion-header{
+    width: 100%;
+}
+.faq .accordion-button{
+    font-size: 26px;
+    font-weight: 600;
+     color: #282938;
+     font-family: "Poppins", sans-serif;
+}
+.faq .accordion-button span{
+    font-size: 24px;
+     color: #2405F2;
+     margin-right: 59px;
+     
+}
+.faq .accordion-body{
+    font-size: 18px;
+    font-weight: 500;
+     color: #282938;
+     font-family: "Poppins", sans-serif;
+     margin: 0px 85px;
+     
+}
+/* ======================
+   Faq part end
+======================= */
+/* ======================
    Contact part start
 ======================= */
 .contact {
