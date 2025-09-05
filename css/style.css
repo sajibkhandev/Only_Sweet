@@ -444,6 +444,34 @@ a {
      margin: 0px 85px;
      
 }
+
+
+
+.accordion-button{
+    border-color: transparent !important;
+    background: transparent !important;
+   
+
+}
+ .faq .accordion-item{
+    border: 0px !important;
+ }
+ .accordion-button::after {
+    transform: translateY(-70%);
+    background: 0 !important;
+    content:"+" !important;
+    
+   
+ }
+ .accordion-button:not(.collapsed)::after {
+    transform: translateY(-70%);
+    background: 0 !important;
+    content:"x" !important;
+    
+ }
+ 
+
+
 /* ======================
    Faq part end
 ======================= */
