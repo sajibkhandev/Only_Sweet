@@ -588,3 +588,55 @@ left: 200px;
 /* ======================
    Contact part end
 ======================= */
+/* ======================
+   Blog part start
+======================= */
+.blog h2{
+     color: #282938;
+    font-size: 48px;
+    font-weight: 700;
+     font-family: "Poppins", sans-serif;
+     padding-bottom: 64px;
+}
+.blog .card{
+    width: 100% !important;
+    border: 0px;
+}
+.blog .card .card-body{
+    padding: 0 !important;
+}
+.blog .card .card-body .card-date{
+  color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     padding-top: 40px;
+     padding-bottom: 16px;
+}
+.blog .card .card-body .card-title{
+  color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+ 
+}
+.blog .card .card-body .card-text{
+  color: rgba(40, 41, 56,0.70);
+    font-size: 16px;
+    font-weight: 600;
+     font-family: "Poppins", sans-serif;
+     padding-top: 16px;
+     padding-bottom: 32px;
+ 
+}
+.blog .card .card-body .card-ancor{
+   color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     
+ 
+}
+/* ======================
+   Blog part end
+======================= */
