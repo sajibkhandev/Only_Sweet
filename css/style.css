@@ -591,6 +591,9 @@ left: 200px;
 /* ======================
    Blog part start
 ======================= */
+.blog{
+    padding-bottom: 170px;
+}
 .blog h2{
      color: #282938;
     font-size: 48px;
@@ -639,4 +642,74 @@ left: 200px;
 }
 /* ======================
    Blog part end
+======================= */
+/* ======================
+   Footer part start
+======================= */
+.first-footer{
+    background: #1C1E53;
+    padding-top: 100px;
+    padding-bottom: 95px;
+}
+footer h2{
+   color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 600;
+     font-family: "Poppins", sans-serif;
+     
+}
+footer p{
+   color: rgba(255, 255, 255,0.80);
+    font-size: 16px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     width: 399px;
+     padding-top: 22px;
+}
+footer .second-pera{
+    padding-top: 14px;
+    padding-bottom: 28px;
+}
+footer ul{
+    display: flex;
+    column-gap: 26px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+footer ul li i{
+    color: white;
+    font-size: 16px;
+}
+
+footer .footer-contact{
+    width: 517px;
+    height: 96px;
+    background: #FCD980;
+    position: absolute;
+    top: 218px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.second-footer .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-footer .navbar-nav{
+    display: flex !important;
+}
+.second-footer p{
+    color: black !important;
+}
+.second-footer a{
+    color: black !important;
+    font-size: 16px;
+}
+/* ======================
+   Footer part end
 ======================= */
