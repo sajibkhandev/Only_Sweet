@@ -52,8 +52,63 @@ Navber Responsive start
    /* ====================
 Navber Responsive end
 ======================= */
+   /* ====================
+Banner Responsive start
+======================= */
+
+.banner {
+	
+	padding-top: 90px;
+	padding-bottom: 117px;
+}
+.banner h1 {
+	font-size: 32px;
+	line-height: 52px;
+}
+.banner p {
+	font-size: 14px;
+	width: auto;
+	
+}
+.banner .viewbutton {
+	padding: 8px 22px;
+	font-size: 14px;
+	
+}
+.banner .viewbutton:hover {
+    background: #FCD980;
+    color: #1B1C2B;
+    border-color: transparent;
+
+}
+.banner .pricingbutton {
+	font-size: 14px;
+	
+}
+.pricingbutton .pricing-icon {
+    opacity: 1;
+    visibility: visible;
+    
+    
+}
+
+.pricingbutton:hover .pricing-icon {
+    left: 100px;
+    
+    
+
+
+}
+.banner img{
+    width: 90%;
+    margin-top: 40px;
+}
+   /* ====================
+Banner Responsive end
+======================= */
     
 
 }
+
 
 
